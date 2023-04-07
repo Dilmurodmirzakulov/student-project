@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Oxygen&family=Oxygen+Mono&family=Red+Hat+Display:wght@300&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap');
+
+html {
+    scroll-behavior: smooth
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+}
+
+.primary-btn {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #253E5E;
+    padding-top: 15px;
+}
+
+.header {
+    background-color: #253E5E;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-icon .nav-item {
+    margin-left: 1.875rem;
+    padding-top: 10px;
+}
+
+.nav-sec a {
+    color: #000000;
+}
+
+.navbar-sec .nav-item {
+    margin-left: 5rem;
+}
+
+.carousel-backdrop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 20px;
+    right: 0;
+    padding: 3rem 5rem;
+}
+
+.carousel-title {
+    font-size: 3.125rem;
+    color: #000000;
+    line-height: 60px;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-info {
+    color: #000000;
+    font-size: 1.25rem;
+    margin-bottom: 3.125rem;
+    line-height: 1.438rem;
+}
+
+.product-container {
+    border: 1px solid #E1E1E1;
+    padding: 10px;
+}
+
+.section-title {
+    margin: 6.25rem 0 2.5rem 0;
+    text-align: center;
+    color: #20AEEA;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.icons-position {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+}
+
+.ic-btn {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    right: 0;
+    border: none;
+    background-color: inherit;
+}
+
+.product-title {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.product-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;
+}
+
+.comment {
+    margin: 0 0 0 10px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.comment span {
+    color: #20AEEA;
+    font-weight: 400;
+}
+
+.es-product-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #20AEEA;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.es-product-controls .btn {
+    color: #FFFFFF;
+}
+
+.es-product-quantity {
+    font-size: 1.25rem;
+    padding: 0 .5rem;
+}
+
+.product-price {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.star-btn {
+    border: none;
+    background-color: inherit;
+}
+
