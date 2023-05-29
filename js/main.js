@@ -21,3 +21,4 @@ $('.category-slick').slick({
     }
     }]
 })
+
