@@ -14,6 +14,10 @@ body {
     position: relative;
 }
 
+button, a {
+    transition: all .3s;
+}
+
 .ud-btn-white {
     width: 12.5rem;
     height: 3.125rem;
@@ -26,6 +30,48 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ud-btn-white:hover {
+    background-color: #20AEEA;
+    color: #FFFFFF;
+}
+
+.ud-dropdown-menu {
+    min-width: 5rem;
+    background-color: #253E5E;
+    border-radius: 0%;
+    left: 0rem;
+    padding: 0;
+}
+
+.ud-nav-item:hover svg path {
+    stroke: #20AEEA;
+}
+
+.dropdown-item.active {
+    background-color: #253E5E;
+}
+
+.ud-dropdown-menu a {
+    color: #FFFFFF;
+}
+
+.ud-dropdown-menu a:active {
+    background-color: inherit;
+}
+
+.ud-dropdown-menu a:hover {
+    background-color: #20AEEA;
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #FFFFFF;
+}
+
+.ud-nav-link:hover {
+    color: #20AEEA !important;
 }
 
 .header {
@@ -70,11 +116,73 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.carousel-indicators .active {
+    background-color: #20AEEA;
+}
+
 .carousel-info {
     color: #000000;
     font-size: 1.25rem;
     margin-bottom: 3.125rem;
     line-height: 1.438rem;
+}
+
+.ud-control-prev {
+    background-color: #253E5E;
+    border-radius: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+}
+
+.ud-control-prev svg {
+    transform: rotate(90deg);
+}
+
+.ud-control-next svg {
+    transform: rotate(270deg);
+}
+
+.ud-control-next {
+    background-color: #253E5E;
+    border-radius: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+}
+
+.ud-control-next:hover {
+    background-color: #20AEEA;
+}
+
+.ud-control-prev:hover {
+    background-color: #20AEEA;
+}  
+
+.ud-carusel-indicators-container {
+    position: absolute;
+    left: 8%;
+    margin-left: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.ud-carousel-indicators {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+}
+
+.ud-carousel-indicators:active {
+    background-color: #253E5E;
 }
 
 .product-container {
@@ -105,13 +213,23 @@ body {
     color: #FFFFFF;
 }
 
-.ic-btn {
+.price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.ic-favorite-btn {
     position: absolute;
     top: 20px;
     left: 200px;
     right: 0;
     border: none;
     background-color: inherit;
+}
+
+.ic-favorite-btn:hover svg {
+    fill: #20AEEA;
 }
 
 .product-title {
@@ -132,15 +250,18 @@ body {
     height: 2.5rem;
 }
 
-.comment {
+.feedback {
     margin: 0 0 0 10px;
     font-weight: bold;
-    padding-top: 5px;
 }
 
-.comment span {
+.feedback a {
     color: #20AEEA;
     font-weight: 400;
+}
+
+.container-flex {
+    display: flex;
 }
 
 .es-product-bag {
@@ -150,6 +271,12 @@ body {
     background-color: #253E5E;
     border-radius: 50px;
     padding: 0.680rem 2.675rem;
+    border: 0;
+    transition: all .3s;
+}
+
+.es-product-bag:hover {
+    background-color: #20AEEA;
 }
 
 .es-product-controls {
@@ -175,8 +302,9 @@ body {
     font-weight: 500;
     font-size: 1rem;
     margin: 0;
-    padding-top: 10px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .discount-price {
@@ -190,6 +318,8 @@ body {
 .star-btn {
     border: none;
     background-color: inherit;
+    display: flex;
+    align-items: flex-start;
 }
 
 .ud-products-list {
@@ -328,6 +458,10 @@ footer {
     margin-right: 0;
 }
 
+.es-footer-socials a:hover svg {
+    fill: #20AEEA;
+}
+
 .es-footer-logo {
     margin-bottom: 3.125rem;
 }
@@ -428,3 +562,41 @@ footer {
 #back-top.visible:hover {
     opacity: 1
 }
+
+.page-links {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.slash-sign {
+    color: #20AEEA;
+}
+
+.page-name {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #20AEEA;
+}
+
+.navbar-bg {
+    background-color: #253E5E;
+}
+
+.info-product-wrap p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+}
+
+.product-name {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 1.25rem;
+}
+
