@@ -1174,3 +1174,84 @@ footer {
     color: #20AEEA;
     text-decoration: underline;
 }
+
+.pro-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2.5rem;
+}
+
+.ud-margin {
+    margin-bottom: 2.5rem;
+}
+
+.pro-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.pro-usage {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;
+}
+
+.star-btn:hover svg path {
+    fill: #20AEEA;
+}
+
+.product-evaluation .star-btn {
+    margin-right: 1.063rem;
+}
+
+.feedback-form-wrapper {
+    border: #E1E1E1 1px solid;
+    padding: 2.5rem;
+}
+
+.write-feedback-header {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #20AEEA;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-submit {
+    width: 100%;
+    border-radius: 3.125rem;
+    background-color: #253E5E;
+    padding: 0.938rem;
+}
+
+.form-group {
+    margin-bottom: 1.875rem;
+}
+
+.feedback-heading {
+    margin-top: 3.125rem;
+}
+
+.favorite-btn-feedback {
+    position: absolute;
+    top: 1rem;
+    left: 11rem;
+    border: none;
+    background-color: inherit;
+}
+
+.favorite-btn-feedback:hover svg {
+    fill: #20AEEA;
+}
+
+.without-border {
+    border-bottom: none;
+}
+
