@@ -304,6 +304,25 @@ button, a {
     background-color: #20AEEA;
 }
 
+.es-product-controls-blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 0.265rem;
+    border: 1px solid #20AEEA;
+    background-color: #20AEEA;
+}
+
+.es-product-controls-blue .btn {
+    color: #FFFFFF;
+}
+
+.es-product-controls-blue span {
+    color: #FFFFFF;
+}
+
 .es-product-controls {
     display: flex;
     align-items: center;
@@ -640,6 +659,14 @@ footer {
     box-shadow: none;
 }
 
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-secondary:focus {
+    background-color: inherit;
+}
+
 .category-product {
     font-weight: 500;
     font-size: 20px;
@@ -668,6 +695,14 @@ footer {
     background-color: inherit;
     border-bottom: none;
     padding-left: 0;
+}
+
+.card-heading .collapsed svg {
+    transform: rotate(360deg);
+}
+
+.card-heading  svg {
+    transform: rotate(180deg);
 }
 
 .card-heading path {
@@ -1424,3 +1459,91 @@ footer {
     margin-bottom: 40px;
 }
 
+.profile-info-container {
+    border: 1px solid #E1E1E1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.qr-code-container {
+    border: 1px solid #E1E1E1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 10px 0;
+}
+
+.customer-info {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.personal-info {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.qr-code-heading {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.customer-balance {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.customer-balance span {
+    color: #20AEEA;
+}
+
+.exit-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nothing-p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #20AEEA;
+}
+
+.start-search {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
