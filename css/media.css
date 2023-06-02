@@ -2,4 +2,8 @@
     .tabs {
         max-width: 48rem;
     }
+
+    .order-wrapper {
+        padding-left: 12.5rem;
+    }
 }

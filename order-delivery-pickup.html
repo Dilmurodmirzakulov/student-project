@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 
     <title>Document</title>
@@ -94,125 +95,131 @@
                 <a href="#" class="page-links">Главная </a>
                 <span class="slash-sign">/</span>
                 <a href="#" class="page-links">Корзина</a>
+                <span class="slash-sign">/</span>
+                <a href="#" class="page-links">Оформление заказа</a>
             </div>
-            <h1 class="page-name">Корзина</h1>
-        </div>
-        <div class="navbar-bg">
-            <div class="es-cart-header">
-                <div class="container">
-                    <div class="es-ch-block">
-                        <div class="es-ch-product">Товар</div>
-                        <div class="es-ch-price">Цена</div>
-                        <div class="es-ch-quantity">Количество</div>
-                        <div class="es-ch-total">Итого</div>
-                        <div class="es-ch-action">Удалить</div>
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="page-name">Оформление заказа</h1>
+                    <div class="container-flex margin-bottom-wrp">
+                        <a class="btn btn-primary btn-blue" href="#" role="button">Доставка</a>
+                        <a class="btn btn-primary btn-dark-blue" href="#" role="button">Самовывоз</a>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="es-cart-products">
-            <div class="container">
-                <div class="cart-content">
-                    <div class="es-ch-block es-cart-item product-item">
-                        <div class="es-ch-product">
-                            <div class="es-ch-img">
-                                <img src="img/basket_1.svg"/>
-                            </div>
-                            <div class="es-ch-detail">
-                                <div class="es-ch-title">
-                                    PHILIP KINGSLEY          
-                                </div>
-                                <div class="es-ch-modifiers"></div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group margin-bottom-wrp">
+                                <label for="exampleInputEmail1">Имя</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Ваше имя">
                             </div>
                         </div>
-                        <div class="es-ch-price">
-                            50 000 сум      
-                        </div>
-                        <div class="es-ch-quantity">
-                            <div class="es-product-controls">
-                                <button class="btn btn-counter btn-minus" data-action="minus-quantity">-</button>
-                                <span class="es-product-quantity">1</span>
-                                <button class="btn btn-counter btn-minus" data-action="plus-quantity">+</button>
+                        <div class="col-6">
+                            <div class="form-group margin-bottom-wrp">
+                                <label for="exampleInputEmail1">Номер</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Ваш номер">
                             </div>
-                        </div>
-                        <div class="es-ch-total">
-                            50 000 сум      
-                        </div>
-                        <div class="es-ch-action">
-                            <button class="btn btn-icon" type="button" data-action="remove-item">
-                                <img src="/img/close-circle.svg"/>
-                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="cart-content">
-                    <div class="es-ch-block es-cart-item product-item">
-                        <div class="es-ch-product">
-                            <div class="es-ch-img">
-                                <img src="img/basket_2.jpg"/>
+                    <p class="map-heading">Выберите филиал</p>
+                    <div class="container-flex margin-bottom-wrp">
+                        <div class="radio-btn-wrapper">
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch1">
+                                <label class="form-check-label" for="branch1">
+                                    Наманган, ул И.Каримова 1
+                                </label>
                             </div>
-                            <div class="es-ch-detail">
-                                <div class="es-ch-title">
-                                    PHILIP KINGSLEY          
-                                </div>
-                                <div class="es-ch-modifiers"></div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch2" checked>
+                                <label class="form-check-label" for="branch2">
+                                    Андижан, ул. Амир Темур шох 8
+                                </label>
+                            </div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch3">
+                                <label class="form-check-label" for="branch3">
+                                    Термез улица Айритом(бывшая Голованова) дом 26
+                                </label>
+                            </div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch4">
+                                <label class="form-check-label" for="branch5">
+                                    Навои пос.Спутник База УРС
+                                </label>
+                            </div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch6">
+                                <label class="form-check-label" for="branch6">
+                                    Самарканд, ул. Термезская проезд 1, дом 1
+                                </label>
                             </div>
                         </div>
-                        <div class="es-ch-price">
-                            35 000 сум      
-                        </div>
-                        <div class="es-ch-quantity">
-                            <div class="es-product-controls">
-                                <button class="btn btn-counter btn-minus" data-action="minus-quantity">-</button>
-                                <span class="es-product-quantity">1</span>
-                                <button class="btn btn-counter btn-minus" data-action="plus-quantity">+</button>
+                        <div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch7">
+                                <label class="form-check-label" for="branch7">
+                                    Ургенч, ул. Амударья д 62
+                                </label>
                             </div>
-                        </div>
-                        <div class="es-ch-total">
-                            35 000 сум      
-                        </div>
-                        <div class="es-ch-action">
-                            <button class="btn btn-icon" type="button" data-action="remove-item">
-                                <img src="/img/close-circle.svg"/>
-                            </button>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch8" checked>
+                                <label class="form-check-label" for="branch8">
+                                    Бухара. Халклар Дустлиги 1. Ориентир УзГазОил заправка
+                                </label>
+                            </div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch9">
+                                <label class="form-check-label" for="branch9">
+                                    Фергана, ул. Мустакиллик 350 внутренний номер
+                                </label>
+                            </div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="branch10">
+                                <label class="form-check-label" for="branch10">
+                                    Ташкент
+                                </label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="cart-content">
-                    <div class="es-ch-block es-cart-item product-item">
-                        <div class="es-ch-product">
-                            <div class="es-ch-img">
-                                <img src="img/basket_3.jpg"/>
+                    
+                    <p class="map-heading">Выберите способ оплаты</p>
+                    <div class="container-flex margin-bottom-wrp">
+                        <div class="radio-btn-wrapper">
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Терминал
+                                </label>
                             </div>
-                            <div class="es-ch-detail">
-                                <div class="es-ch-title">
-                                    PHILIP KINGSLEY          
-                                </div>
-                                <div class="es-ch-modifiers"></div>
-                            </div>
-                        </div>
-                        <div class="es-ch-price">
-                            35 000 сум      
-                        </div>
-                        <div class="es-ch-quantity">
-                            <div class="es-product-controls">
-                                <button class="btn btn-counter btn-minus" data-action="minus-quantity">-</button>
-                                <span class="es-product-quantity">1</span>
-                                <button class="btn btn-counter btn-minus" data-action="plus-quantity">+</button>
+                            <div class="form-check   m-0">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Наличные
+                                </label>
                             </div>
                         </div>
-                        <div class="es-ch-total">
-                            70 000 сум      
-                        </div>
-                        <div class="es-ch-action">
-                            <button class="btn btn-icon" type="button" data-action="remove-item">
-                                <img src="/img/close-circle.svg"/>
-                            </button>
+                        <div>
+                            <div class="form-check margin-con">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    Payme
+                                </label>
+                            </div>
+                            <div class="form-check m-0">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                    Click
+                                </label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="es-cart-footer">
-                    <div class="es-cf-left">
+                    <div class="form-group margin-bottom-wrp">
+                        <label for="exampleFormControlTextarea1">Комментарий</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                            placeholder="Введите комментарий"></textarea>
+                    </div>
+                    <div class="margin-bt-wrp">
                         <a href="/ru/menu" class="es-back-link">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12.3203 14.62L9.76031 12.06L12.3203 9.5" stroke="#A78B6B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -222,16 +229,42 @@
                             Вернуться к покупкам
                         </a>
                     </div>
-                    <div class="es-cf-right">
-                        <div class="es-cart-total">
-                            <div class="es-ct-label">
-                                Итого:
-                            </div>
-                            <div class="es-ct-value">
-                                1 370 000 сум        
+                </div>
+                <div class="col-6">
+                    <div class="order-wrapper">
+                        <p class="write-feedback-header margin-bottom-wrp">
+                            Ваш заказ
+                        </p>
+                        <div class="container-flex mar-bt">
+                            <img src="img/order-delivery_1.jpg" alt="product" class="pro-info-wrp">
+                            <div>
+                                <p class="order-info">Название товара, в одну строку</p>
+                                <p class="total-price-order">1 x 56 000 сум = 56 000 сум</p>
                             </div>
                         </div>
-                        <a class="btn btn-bread btn-lg w-100" href="#" data-target="#authModal" data-toggle="modal">Перейти к оформлению</a>          
+                        <div class="container-flex mar-bt">
+                            <img src="img/order-delivery_1.jpg" alt="product" class="pro-info-wrp">
+                            <div>
+                                <p class="order-info">Название товара, в одну строку</p>
+                                <p class="total-price-order">1 x 56 000 сум = 56 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="container-flex mar-bt border-bt">
+                            <img src="img/order-delivery_1.jpg" alt="product" class="pro-info-wrp">
+                            <div>
+                                <p class="order-info">Название товара, в одну строку</p>
+                                <p class="total-price-order">1 x 56 000 сум = 56 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="container-flex flex-jt-bw">
+                            <p class="order-delivery-p">Доставка:</p>
+                            <p class="order-delivery-p">30 000 сум</p>
+                        </div>
+                        <div class="container-flex flex-jt-bw">
+                            <p class="order-delivery-p">Сумма заказа:</p>
+                            <p class="order-delivery-p">1 370 000 сум</p>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Оформить заказ</button>
                     </div>
                 </div>
             </div>
@@ -325,5 +358,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
