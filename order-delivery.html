@@ -17,11 +17,13 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light es-navbar" id="mainNavbar">
             <div class="container">
-                <a class="btn ud-btn-white" href="#" role="button"> На главную </a>
-                <a href="#">
-                    <img src="img/logo.svg" alt="logo">
-                </a>
-                <ul class="navbar-nav navbar-icon sm-hide">
+                <a class="btn ud-btn-white hidden-svg" href="#" role="button"> На главную </a>
+                <div class="logo-container">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+                <ul class="navbar-nav navbar-icon">
                     <li  class="nav-item dropdown">
                         <a aria-expanded="false" class="nav-link dropdown-toggle ud-nav-link" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">
                             Рус
@@ -44,7 +46,7 @@
                         </svg>
                     </li>
                     <li class="nav-item ud-nav-item">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="hidden-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.5 7.67013V6.70013C7.5 4.45013 9.31 2.24013 11.56 2.03013C14.24 1.77013 16.5 3.88013 16.5 6.51013V7.89013" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M9.00001 22.0001H15C19.02 22.0001 19.74 20.3901 19.95 18.4301L20.7 12.4301C20.97 9.99012 20.27 8.00012 16 8.00012H8.00001C3.73001 8.00012 3.03001 9.99012 3.30001 12.4301L4.05001 18.4301C4.26001 20.3901 4.98001 22.0001 9.00001 22.0001Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M15.4955 12.0001H15.5045" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -52,7 +54,7 @@
                         </svg>
                     </li>
                     <li class="nav-item ud-nav-item">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="hidden-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.1605 10.87C12.0605 10.86 11.9405 10.86 11.8305 10.87C9.45055 10.79 7.56055 8.84 7.56055 6.44C7.56055 3.99 9.54055 2 12.0005 2C14.4505 2 16.4405 3.99 16.4405 6.44C16.4305 8.84 14.5405 10.79 12.1605 10.87Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M7.1607 14.56C4.7407 16.18 4.7407 18.82 7.1607 20.43C9.9107 22.27 14.4207 22.27 17.1707 20.43C19.5907 18.81 19.5907 16.17 17.1707 14.56C14.4307 12.73 9.9207 12.73 7.1607 14.56Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -99,14 +101,14 @@
                 <a href="#" class="page-links">Оформление заказа</a>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 col-xl-6">
                     <h1 class="page-name">Оформление заказа</h1>
                     <div class="container-flex margin-bottom-wrp">
                         <a class="btn btn-primary btn-blue" href="#" role="button">Доставка</a>
                         <a class="btn btn-primary btn-dark-blue" href="#" role="button">Самовывоз</a>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-sm-12 col-xl-6">
                             <div class="form-group margin-bottom-wrp">
                                 <label for="exampleInputEmail1">Имя</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
@@ -122,8 +124,8 @@
                         </div>
                     </div>
                     <p class="map-heading"> <span>*</span> Найдите место на карте и кликайте на него!</p>
-                    <div class="margin-bottom-wrp">
-                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adc66ec940bad88ccf09aacf5607e4d88012c8c3af15102e93ad9bfcd7153b5c3&amp;width=540&amp;height=450&amp;lang=en_FR&amp;scroll=true"></script>
+                    <div class="margin-bottom-wrp map-wrp">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adc66ec940bad88ccf09aacf5607e4d88012c8c3af15102e93ad9bfcd7153b5c3&amp;width=100%&amp;height=450&amp;lang=en_FR&amp;scroll=true"></script>
                     </div>
                     <div class="row">
                         <div class="col-6">
@@ -145,28 +147,28 @@
                     <div class="container-flex margin-bottom-wrp">
                         <div class="radio-btn-wrapper">
                             <div class="form-check margin-con">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <input class="form-check-input radio-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label radio" for="flexRadioDefault1">
                                     Терминал
                                 </label>
                             </div>
                             <div class="form-check   m-0">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <input class="form-check-input radio-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label radio" for="flexRadioDefault2">
                                     Наличные
                                 </label>
                             </div>
                         </div>
                         <div>
                             <div class="form-check margin-con">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">
+                                <input class="form-check-input radio-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label radio" for="flexRadioDefault3">
                                     Payme
                                 </label>
                             </div>
                             <div class="form-check m-0">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
-                                <label class="form-check-label" for="flexRadioDefault4">
+                                <input class="form-check-input radio-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                                <label class="form-check-label radio" for="flexRadioDefault4">
                                     Click
                                 </label>
                             </div>
@@ -235,7 +237,7 @@
                     <div class="col-md-4">
                         <div class="es-footer-logo">
                             <a href="#">
-                                <img src="img/logo_footer.svg" alt="logo">
+                                <img src="img/logo_footer.svg" alt="logo" class="img-fluid">
                             </a>
                         </div>
                         <div class="es-footer-socials">

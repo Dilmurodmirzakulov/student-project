@@ -310,9 +310,14 @@ button, a {
     justify-content: center;
     border-radius: 50px;
     color: #FFFFFF;
-    padding: 0.265rem;
+    padding: 2px 7px;
     border: 1px solid #20AEEA;
     background-color: #20AEEA;
+}
+
+.flex-just-center {
+    display: flex;
+    justify-content: center;
 }
 
 .es-product-controls-blue .btn {
@@ -339,8 +344,10 @@ button, a {
 
 .es-product-quantity {
     font-size: 1rem;
-    padding: 0rem 0.7rem;
     color: #000000;
+    width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 .product-price {
@@ -640,6 +647,11 @@ footer {
     margin: 0;
 }
 
+.es-ch-action .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
 .product-name {
     display: flex;
     align-items: center;
@@ -672,6 +684,7 @@ footer {
     font-size: 20px;
     line-height: 23px;
     color: #000000;
+    font-weight: bold;
 }
 
 .category-product-desc {
@@ -742,6 +755,20 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem !IMPORTANT;
+    margin-left: -1.25rem !IMPORTANT;
+}
+
+.dropdown-radios {
+    min-width: 220px;
+}
+
+.dropdown-toggle-radio::after {
+    margin-left: 5.5em;
 }
 
 .page-title {
@@ -1261,6 +1288,10 @@ footer {
     padding: 24px 6px;
 }
 
+.search-form-control {
+    width: 100%;
+}
+
 .form-control:focus {
     color: #495057;
     background-color: #fff;
@@ -1312,6 +1343,11 @@ footer {
     margin-right: 1.25rem;
     padding: 13px 0;
     border: none;
+}
+
+.btn-counter {
+    border-radius: 50px;
+    width: 40%;
 }
 
 .btn-blue:hover {
@@ -1546,4 +1582,62 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+.btn-outline-success {
+    background-color: #20AEEA;
+    border: none;
+    padding: 13px 14px;
+    border-radius: 0;
+}
+
+.search-form {
+    padding-right: 450px;
+    margin-right: 0;
+}
+
+tbody:last-child {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.radio-input {
+    appearance: none;
+    background-color: #ffffff;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #cccfdb;
+    margin: 0;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.radio-input::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.3s transform ease-in-out;
+    box-shadow: inset 6px 6px #ffffff;
+}
+
+.radio-input:checked {
+    background: #0077ff;
+    border-color: #0077ff;
+}
+
+.radio-input:checked::before {
+    transform: scale(1);
+}
+
+.radio {
+    cursor: pointer;
+    padding: 6px 8px;
+}
+
+.radio:not(:last-child) {
+    margin-right: 6px;
 }
