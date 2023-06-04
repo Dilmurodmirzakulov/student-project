@@ -17,12 +17,23 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light es-navbar" id="mainNavbar">
             <div class="container">
-                <a class="btn ud-btn-white" href="#" role="button"> На главную </a>
-                <a href="#">
-                    <img src="img/logo.svg" alt="logo">
-                </a>
-                <ul class="navbar-nav navbar-icon sm-hide">
-                    <li  class="nav-item dropdown">
+                <a class="btn ud-btn-white hidden-svg" href="#" role="button"> На главную </a>
+                <div class="logo-container">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+                <ul class="navbar-nav navbar-icon">
+                    <li class="nav-item ud-nav-item hidden-svg-desk">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99999 18.3337C14.6024 18.3337 18.3333 14.6027 18.3333 10.0003C18.3333 5.39795 14.6024 1.66699 9.99999 1.66699C5.39762 1.66699 1.66666 5.39795 1.66666 10.0003C1.66666 14.6027 5.39762 18.3337 9.99999 18.3337Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.66667 2.5H7.5C5.875 7.36667 5.875 12.6333 7.5 17.5H6.66667" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12.5 2.5C14.125 7.36667 14.125 12.6333 12.5 17.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.5 13.3333V12.5C7.36667 14.125 12.6333 14.125 17.5 12.5V13.3333" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.5 7.5C7.36667 5.875 12.6333 5.875 17.5 7.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </li>
+                    <li  class="nav-item dropdown hidden-svg">
                         <a aria-expanded="false" class="nav-link dropdown-toggle ud-nav-link" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">
                             Рус
                         </a>
@@ -43,18 +54,25 @@
                             <path d="M12.62 20.8096C12.28 20.9296 11.72 20.9296 11.38 20.8096C8.48 19.8196 2 15.6896 2 8.68961C2 5.59961 4.49 3.09961 7.56 3.09961C9.38 3.09961 10.99 3.97961 12 5.33961C13.01 3.97961 14.63 3.09961 16.44 3.09961C19.51 3.09961 22 5.59961 22 8.68961C22 15.6896 15.52 19.8196 12.62 20.8096Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </li>
-                    <li class="nav-item ud-nav-item">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <li class="nav-item ud-nav-item hidden-svg">
+                        <svg class="hidden-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.5 7.67013V6.70013C7.5 4.45013 9.31 2.24013 11.56 2.03013C14.24 1.77013 16.5 3.88013 16.5 6.51013V7.89013" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M9.00001 22.0001H15C19.02 22.0001 19.74 20.3901 19.95 18.4301L20.7 12.4301C20.97 9.99012 20.27 8.00012 16 8.00012H8.00001C3.73001 8.00012 3.03001 9.99012 3.30001 12.4301L4.05001 18.4301C4.26001 20.3901 4.98001 22.0001 9.00001 22.0001Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M15.4955 12.0001H15.5045" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M8.49451 12.0001H8.50349" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </li>
-                    <li class="nav-item ud-nav-item">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <li class="nav-item ud-nav-item hidden-svg">
+                        <svg class="hidden-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.1605 10.87C12.0605 10.86 11.9405 10.86 11.8305 10.87C9.45055 10.79 7.56055 8.84 7.56055 6.44C7.56055 3.99 9.54055 2 12.0005 2C14.4505 2 16.4405 3.99 16.4405 6.44C16.4305 8.84 14.5405 10.79 12.1605 10.87Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M7.1607 14.56C4.7407 16.18 4.7407 18.82 7.1607 20.43C9.9107 22.27 14.4207 22.27 17.1707 20.43C19.5907 18.81 19.5907 16.17 17.1707 14.56C14.4307 12.73 9.9207 12.73 7.1607 14.56Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </li>
+                    <li class="nav-item ud-nav-item hidden-svg-desk">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="36" height="36" rx="18" fill="#20AEEA"/>
+                            <path d="M10 15H26" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M10 21H26" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
                         </svg>
                     </li>
                 </ul>
@@ -98,11 +116,11 @@
             </div>
             <div class="container-payment margin-bt-wrp">
                 <div class="payment-wrapper">
-                    <div>
+                    <div class="mar-top-40">
                         <img src="img/logo-dark.svg" alt="company logo" class="img-fluid">
                     </div>
                     <p class="payment-heading">Ваш заказ успешно принят!</p>
-                    <p class="order-number">Номер заказа: <span> 548648</span> </p>
+                    <p class="order-number">Номер заказа: <a href="#">548648</a></p>
                     <p class="payment-footer">Оператор свяжется с вами для консультациив ближайшее время</p>
                     <div class="container-flex">
                         <a class="btn btn-primary btn-blue-pay" href="#" role="button">Доставка</a>
@@ -118,7 +136,7 @@
                     <div class="col-md-4">
                         <div class="es-footer-logo">
                             <a href="#">
-                                <img src="img/logo_footer.svg" alt="logo">
+                                <img src="img/logo_footer.svg" alt="logo" class="img-fluid">
                             </a>
                         </div>
                         <div class="es-footer-socials">

@@ -9,7 +9,7 @@
     }
 
     .hidden-svg {
-        display: none;
+        display: none !important;
     }
 
     .navbar-nav .navbar-icon:last-child {
@@ -28,8 +28,46 @@
         list-style: none;
     }
 
+    .navbar-icon .nav-item {
+        margin-left: 20px;
+    }
+
     .nav-sec  {
         display: none;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .es-product-bag {
+        width: 110px;
+        height: 35px;
+        padding: 0;
+    }
+
+    .btn-mobile {
+        width: 110px;
+        height: 35px;
+        padding: 0;
+    }
+
+    .star-btn {
+        width: 15px;
+        height: 15px;
+    }
+
+    .carousel-backdrop {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 20px;
+        right: 0;
+        padding: 3rem 0;
     }
 
     .carousel-title {
@@ -67,7 +105,39 @@
         max-width: 50%;
         padding-left: 0.625rem;
         padding-right: 0.625rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    .new-sign {
+        display: none;
+    }
+
+    .slick-next {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sec-title-mobile {
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .slick-arrow {
+        top: -63px;
+    }
+
+    .slick-next {
+        right: 15px;
+    }
+
+    .slick-prev {
+        width: 40px;
+        height: 40px;
+    }
+
+    #back-top {
+        padding: 0.5rem;
+        bottom: 420px;
     }
 
     .ic-favorite-btn {
@@ -297,7 +367,8 @@
     }
 
     .es-ch-quantity .es-product-controls {
-        width: 100px;
+        width: 120px !important;
+        height: 40px;
     }
 
     .es-ch-total {
@@ -406,6 +477,63 @@
         width: 100%;
     }
 
+    .pages-navigation {
+        margin: 40px 0;
+    }
+
+    .margin-bt-wrp {
+        margin-bottom: 50px;
+    }
+
+    .section-title {
+        text-align: start;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    .mb-30-wrp {
+        margin-bottom: 30px;
+    }
+
+    .order-info {
+        margin-top: 20px;
+    }
+
+    .payment-wrapper {
+        padding: 0;
+    }
+
+    .btn-blue-pay {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .payment-footer {
+        text-align: center;
+    }
+
+    .mar-top-40 {
+        margin-top: 40px;
+    }
+
+    .search-form {
+        padding-right: 50px;
+        margin-right: 0;
+    }
+
+    .form-inline {
+        flex-flow: nowrap;
+    }
+
+    .nothing-p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #20AEEA;
+    }
 
 }
 
@@ -425,6 +553,10 @@
 
     .category-left-wrp {
         padding-right: 120px;
+    }
+
+    .hidden-svg-desk {
+        display: none !important;
     }
 }
 

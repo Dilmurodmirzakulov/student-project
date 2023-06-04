@@ -5,8 +5,8 @@ $('.category-slick').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     swipeToSlide: true,
-    prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button"><img src="img/ic_left_arrow.svg"/></button>',
-    nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button"><img src="img/ic_right_arrow.svg"/></button>',
+    prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button"><img src="img/ic_left_arrow.svg" class="img-fluid"/></button>',
+    nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button"><img src="img/ic_right_arrow.svg" class="img-fluid"/></button>',
     responsive: [{
     breakpoint: 1024, settings: {
         slidesToShow: 6, slidesToScroll: 1, infinite: true, dots: true

@@ -1484,8 +1484,14 @@ footer {
     line-height: 21px;
 }
 
-.order-number span {
+.order-number a {
     color: #20AEEA;
+    text-decoration: none;
+}
+
+.order-number a:hover {
+    color: #20AEEA;
+    text-decoration: underline;
 }
 
 .payment-footer {
@@ -1640,4 +1646,17 @@ tbody:last-child {
 
 .radio:not(:last-child) {
     margin-right: 6px;
+}
+
+.ud-category-item {
+    flex: 0 0 33%;
+    max-width: 33%;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    margin-bottom: 2.5rem;
+}
+
+.category-fav {
+    top: 10px;
+    left: 170px;
 }
