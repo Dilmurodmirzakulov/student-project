@@ -1,0 +1,8 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="49.5" stroke="#20AEEA"/>
+<path d="M36.5156 48.8301V55.5651C36.5156 62.3001 39.2156 65.0001 45.9506 65.0001H54.0356C60.7706 65.0001 63.4706 62.3001 63.4706 55.5651V48.8301" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.0007 50C52.7457 50 54.7707 47.765 54.5007 45.02L53.5107 35H46.5057L45.5007 45.02C45.2307 47.765 47.2557 50 50.0007 50Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M59.4642 50C62.4942 50 64.7142 47.54 64.4142 44.525L63.9942 40.4C63.4542 36.5 61.9542 35 58.0242 35H53.4492L54.4992 45.515C54.7542 47.99 56.9892 50 59.4642 50Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40.4596 50C42.9346 50 45.1696 47.99 45.4096 45.515L45.7396 42.2L46.4596 35H41.8846C37.9546 35 36.4546 36.5 35.9146 40.4L35.5096 44.525C35.2096 47.54 37.4296 50 40.4596 50Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 57.5C47.495 57.5 46.25 58.745 46.25 61.25V65H53.75V61.25C53.75 58.745 52.505 57.5 50 57.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

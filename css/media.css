@@ -558,6 +558,10 @@
     .hidden-svg-desk {
         display: none !important;
     }
+
+    .about-comp-three {
+        max-width: 300px;
+    }
 }
 
 
