@@ -282,6 +282,10 @@
         margin: 40px 0;
     }
 
+    .link-wr {
+        margin: 20px 0;
+    }
+
     .page-name {
         font-weight: 400;
         font-size: 32px;
@@ -527,12 +531,214 @@
         flex-flow: nowrap;
     }
 
+    .d-c {
+        display: flex;
+        flex-direction: column;
+    }
+
     .nothing-p {
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
         text-align: center;
         color: #20AEEA;
+    }
+
+    .info-wrapper {
+        margin-left: 16px;
+    }
+
+    .worker-info-wrp {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .team-heading {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 50px;
+    }
+
+    .mar-t-b {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .adress {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .ali-cen {
+        margin-top: 20px;
+    }
+
+    .adress-info {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .adress-info-n {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .img-contact {
+        display: none;
+    }
+
+    .map-wr {
+        height: 450px;
+    }
+
+    .socials {
+        margin-bottom: 40px;
+    }
+
+    .img-contact-2 {
+        margin-top: 50px;
+    }
+
+    .job-offer-wrp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mar-t-b {
+        margin-top: 0;
+    }
+
+    .worker-name {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .bor-top {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .mar-bt {
+        margin-bottom: 50px;
+    }
+
+    .ud-carusel-item {
+        margin-bottom: 0;
+    }
+
+    .btn-comp-n {
+        right: 150px;
+    }
+
+    .slick-two {
+        top: -40px;
+        right: 220px;
+    }
+
+    .two-s {
+        top: -40px;
+        right: 180px;
+    }
+
+    .accordion-job {
+        width: 100%;
+    }
+
+    .bor-bt {
+        margin-bottom: 50px;
+    }
+
+    .btn-link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .heading-sec {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .modal-body {
+        padding: 3px;
+    }
+
+    .modal {
+        width: 100vw;
+    }
+    
+    .modal-dialog {
+        width: 100vw;
+    }
+    
+    .modal-content {
+        width: 100vw;
+    }
+
+    .main-product-container {
+        border: 1px solid #20AEEA;
+        position: relative;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .main-ud-carusel-item::after {
+        display: block;
+        content: " ";
+        background-color: #20AEEA;
+        width: 0px;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        left: 315px;
+    }
+
+    .product-container-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .company-name {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .company-desc {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .main-heading {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+    .comp-branch {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .branch {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
     }
 
 }

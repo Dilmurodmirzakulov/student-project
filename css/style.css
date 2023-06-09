@@ -66,6 +66,15 @@ button, a {
     padding: 0;
 }
 
+.ud-nav-item {
+    color: #FFFFFF;
+}
+
+.ud-nav-item:hover {
+    color: #20AEEA;
+    transition: all .3s;
+}
+
 .ud-nav-item:hover svg path {
     stroke: #20AEEA;
 }
@@ -736,7 +745,7 @@ footer {
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
+    color: #253E5E;
     display: flex;
     justify-content: space-between;
     padding-left: 0;
@@ -1692,7 +1701,6 @@ tbody:last-child {
 
 .main-product-container {
     border: 1px solid #20AEEA;
-    padding: 10px;
     position: relative;
     height: 300px;
     width: 300px;
@@ -1707,6 +1715,36 @@ tbody:last-child {
     flex: 0 0 20% !important;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
+    position: relative;
+}
+
+.main-ud-carusel-item-2 {
+    flex: 0 0 20% !important;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    position: relative;
+}
+
+.main-ud-carusel-item::after {
+    display: block;
+    content: " ";
+    background-color: #20AEEA;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 315px;
+}
+
+.main-ud-carusel-item-2::after {
+    display: block;
+    content: " ";
+    background-color: #20AEEA;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 340px;
 }
 
 .mar-top-150 {
@@ -1767,6 +1805,7 @@ tbody:last-child {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    margin-bottom: 0;
 }
 
 .about-comp-three {
@@ -1780,6 +1819,8 @@ tbody:last-child {
     display: flex;
     justify-content: space-between;
     max-width: 490px;
+    min-height: 134px;
+    align-items: center;
 }
 
 .number {
@@ -1787,6 +1828,7 @@ tbody:last-child {
     font-size: 50px;
     line-height: 59px;
     color: #20AEEA;
+    margin-bottom: 5px;
 }
 
 .num-desc {
@@ -1794,6 +1836,7 @@ tbody:last-child {
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .request-wrapper {
@@ -1801,9 +1844,8 @@ tbody:last-child {
     position: absolute;
     bottom: 0px;
     left: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 40%;
+    padding: 20px;
 }
 
 .request {
@@ -1936,6 +1978,7 @@ tbody:last-child {
     width: 20px;
     padding: 5px;
 }
+
 .mar-t-b {
     margin-top: 150px;
     margin-bottom: 40px;
@@ -1976,5 +2019,270 @@ tbody:last-child {
     font-size: 28px;
     line-height: 33px;
     color: #253E5E;
+}
+
+.work-wrp {
+    position: relative;
+}
+
+.worker-name {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.position-worker {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #20AEEA;
+}
+
+.info-w {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.bor-top {
+    border-top: 1px solid #E1E1E1;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.worker-info-wrp {
+    max-width: 420px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-comp-p {
+    background-color: #253E5E;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 110px;
+}
+
+.last-arrow1 {
+    background-color: #FFFFFF;
+    padding: 13px 17px;
+    border-radius: 50%;
+}
+
+.last-arrow2 {
+    background-color: #FFFFFF;
+    padding: 13px 17px;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}
+
+.btn-comp-p:hover {
+    background-color: #20AEEA;
+}
+
+.con-col  {
+    flex-direction: column;
+}
+
+.num-description {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 94px;
+    color: #253E5E;
+}
+
+.last-wrapper {
+    position: relative;
+}
+
+.last-inner-wrp {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #253E5E;
+}
+
+.bg-pad {
+    padding-top: 150px;
+}
+
+.btn-comp-p img {
+    transform: rotate(90deg);
+}
+
+.btn-comp-n {
+    background-color: #253E5E;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 110px;
+}
+
+.num-con {
+    min-width: 203px;
+}
+
+.btn-comp-n:hover {
+    background-color: #20AEEA;
+}
+
+.btn-comp-n img {
+    transform: rotate(270deg);
+}
+
+.socials {
+    display: flex;
+}
+
+.socials-wrp svg path {
+    stroke: #253E5E;
+    fill: #253E5E;
+}
+
+.socials-wrp {
+    margin-right: 20px;
+}
+
+.socials-wrp:hover svg {
+    fill: #20AEEA;
+}
+
+.map-wr {
+    height: 845px;
+}
+
+.adress {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #20AEEA;
+}
+
+.container-cen {
+    display: flex;
+    align-items: center;
+}
+
+.team-heading-2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: #20AEEA;
+    margin-top: 50px;
+}
+
+.adress-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.slick-two {
+    top: -107px;
+}
+
+.adress-info-n a {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #253E5E;
+    margin-bottom: 40px;
+}
+
+.adress-info-n a:hover {
+    text-decoration: none;
+    color: #20AEEA;
+}
+
+.ic-main-p {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    color: #253E5E;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.socials {
+    margin-bottom: 70px;
+}
+
+.info-wrapper-two {
+    max-width: 470px;
+}
+
+.container-main-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main-slick-dif .slick-track {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    border: none;
+}
+
+.form-group-last {
+    border-style: dotted;
+}
+
+.btn-modal {
+    width: 100%;
+    background-color: #253E5E;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-modal:hover {
+    background-color: #20AEEA;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    outline: 0;
+}
+
+.modal-dialog {
+    margin: 0;
+    width: 50vw;
+    height: 100vh;
+}
+
+.modal-content {
+    width: 50vw;
+    height: 100vh;
+    border-radius: 0;
+}
+
+.modal-body {
+    padding: 50px 100px;
 }
 
