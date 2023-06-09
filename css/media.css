@@ -741,6 +741,88 @@
         line-height: 19px;
     }
 
+    .es-history-section,
+    .es-achivements-section,
+    .es-partners-section {
+        padding: 3.125rem 0;
+    }
+
+    .es-history-header {
+        text-align: left;
+        margin-bottom: 12rem;
+    }
+
+    .ec-section-title {
+        margin-bottom: 1.875rem;
+        font-size: 2rem;
+    }
+
+    .es-years-wrapper {
+        font-size: 5rem;
+    }
+
+    .es-years-wrapper .slick-arrow {
+        top: -10rem;
+        z-index: 999;
+    }
+
+    .es-years-wrapper .slick-next {
+    left: calc(50% + 1.875rem) !important;
+    transform: rotate(0deg);
+    transform: translateX(-50%);
+    }
+
+    .es-years-wrapper .slick-prev {
+    left: calc(50% - 1.875rem) !important;
+    transform: rotate(0deg);
+    transform: translateX(-50%);
+    }
+
+    .es-years-circle {
+        right: 50%;
+        transform: translateX(50%);
+        width: 70%;
+    }
+
+    .es-static-year {
+        display: none;
+    }
+
+    .es-years-slider span {
+        display: inline;
+    }
+
+    .es-years-slider,
+    .es-history-slider {
+        max-width: 100vw;
+        width: 100%;
+    }
+
+    .es-years-slider {
+        line-height: 93.75px;
+    }
+
+    .es-years-slider .slick-current {
+        color: var(--main-color);
+    }
+
+    .es-slick-year {
+        text-align: center;
+        padding: 0 6vw;
+    }
+
+    .es-history-wrapper {
+        margin-top: 5rem;
+        font-size: 1.25rem;
+        height: max-content;
+    }
+
+    .es-years-slider,
+    .es-history-slider {
+        max-width: 100vw;
+        width: 100%;
+    }
+
 }
 
 

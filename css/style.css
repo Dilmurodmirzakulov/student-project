@@ -2286,3 +2286,101 @@ tbody:last-child {
     padding: 50px 100px;
 }
 
+.es-history-section {
+    padding: 15vh 0;
+}
+
+.es-history-header {
+    display: flex;
+}
+
+.slider-3 {
+    background-color: #253E5E;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ec-section-title {
+    font-size: 6.25rem;
+    font-weight: 300;
+    margin-bottom: 4.375rem;
+    color: #20aeea;
+}
+
+.es-vacancies-header > .ec-section-title,
+.es-vacancy-nav-tabs {
+    margin: 0;
+}
+
+.es-years-wrapper .slick-arrow {
+    top: 50%;
+    z-index: 9;
+    right: 3rem;
+}
+
+.es-years-wrapper .slick-next {
+    top: 52%;
+    transform: rotate(90deg);
+}
+.es-years-wrapper .slick-prev {
+    top: 39%;
+    transform: rotate(90deg);
+}
+
+.es-years-wrapper {
+    position: relative;
+    font-size: 9.375rem;
+    display: flex;
+    align-items: center;
+}
+
+.es-years-circle {
+    position: absolute;
+    width: 80%;
+    right: 0;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+}
+
+.es-years-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.es-static-year {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.es-static-year {
+    color: #253e5e;
+}
+
+.es-years-slider .slick-slide {
+    color: #e3e3e3;
+}
+
+.es-years-slider .slick-current {
+    color: var(--active-color);
+}
+
+.es-years-slider {
+    line-height: 175.78px;
+}
+
+.es-years-slider span {
+    display: none;
+}
+
+.es-history-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1.875rem;
+}

@@ -155,3 +155,64 @@ $('.main-slick-dif').slick({
     }
     }]
 })
+
+$(".es-years-slider").slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    centerMode: true,
+    arrows: true,
+    vertical: true,
+    verticalSwiping: true,
+    centerPadding: 0,
+    asNavFor: ".es-history-slider",
+    prevArrow:
+        '<button class="slick-prev slick-arrow slider-3" aria-label="Previous" type="button"><img src="img/ic_slider-left.svg"/></button>',
+    nextArrow:
+        '<button class="slick-next slick-arrow slider-3" aria-label="Next" type="button"><img src="img/ic_slider-right.svg"/></button>',
+    responsive: [
+    {
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            vertical: false,
+            verticalSwiping: false,
+            adaptiveHeight: true,
+            centerMode: true,
+            variableWidth: true,
+            variableHeight: true,
+            arrows: true,
+        },
+    },
+    ],
+});
+
+$(".es-history-slider").slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    arrows: false,
+    vertical: true,
+    verticalSwiping: true,
+    centerPadding: 0,
+    asNavFor: ".es-years-slider",
+    responsive: [
+        {
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            vertical: false,
+            verticalSwiping: false,
+            adaptiveHeight: true,
+            centerMode: true,
+        },
+        },
+    ],
+});
+
+$(".es-years-slider").slick("slickGoTo", 2);
